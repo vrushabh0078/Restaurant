@@ -11,7 +11,7 @@ const Menu = [
     },
     {
         id: 2,
-        img: "Assets/AlluPakoda.png",
+        img: "Images/AlluPakoda.png",
         name: "AlluPakoda",
         category: "Evening",
         price: "20Rs",
@@ -19,7 +19,7 @@ const Menu = [
     },
     {
         id: 3,
-        img: "Assets/Burger.png",
+        img: "Images/Burger.png",
         name: "Burger",
         category: "Evening",
         price: "30Rs",
@@ -27,7 +27,7 @@ const Menu = [
     },
     {
         id: 4,
-        img: "Assets/Chole.png",
+        img: "Images/Chole.png",
         name: "Chole",
         category: "Lunch",
         price: "50Rs",
@@ -35,7 +35,7 @@ const Menu = [
     },
     {
         id: 5,
-        img: "Assets/Pizza.png",
+        img: "Images/Pizza.png",
         name: "Pizza",
         category: "Evening",
         price: "120Rs",
@@ -43,7 +43,7 @@ const Menu = [
     },
     {
         id: 6,
-        img: "Assets/Manchurian.png",
+        img: "Images/Manchurian.png",
         name: "Manchurian",
         category: "Evening",
         price: "60Rs",
@@ -51,7 +51,7 @@ const Menu = [
     },
     {
         id: 7,
-        img: "Assets/Khichdi.png",
+        img: "Images/Khichdi.png",
         name: "Khichdi",
         category: "Dinner",
         price: "50Rs",
@@ -59,7 +59,7 @@ const Menu = [
     },
     {
         id: 8,
-        img: "Assets/Sweets.png",
+        img: "Images/Sweets.png",
         name: "Sweets",
         category: "Dinner",
         price: "10Rs",
@@ -67,7 +67,7 @@ const Menu = [
     },
     {
         id: 9,
-        img: "Assets/Rajma.png",
+        img: "Images/Rajma.png",
         name: "Rajma Rice",
         category: "Dinner",
         price: "100Rs",
@@ -75,7 +75,7 @@ const Menu = [
     },
     {
         id: 10,
-        img: "Assets/Samosa.png",
+        img: "Images/Samosa.png",
         name: "Samosa",
         category: "breakfast",
         price: "30Rs",

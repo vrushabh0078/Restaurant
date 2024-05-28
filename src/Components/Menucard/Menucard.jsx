@@ -3,11 +3,11 @@ import './Menucard.css'
 
 const Menucard = ( { menuData} ) => {
   return (
-    <>
+    
         <section className='main-card--container'>
             {menuData.map((curElem) =>{
                 return (
-                    <>
+                    
                         <div className="card-container" key={curElem.id}>
                             <div className="card">
                                 <div className="card-body">
@@ -30,12 +30,12 @@ const Menucard = ( { menuData} ) => {
                             </div>
 
                         </div>
-                    </>
+                    
                 )
             })}
 
         </section>
-    </>
+    
   )
 }
 
