@@ -3,15 +3,15 @@ import React from 'react'
 const Menu = [
     {
         id: 1,
-        img: "Assets/Maggie.png",
+        img: "/assets/Maggie.png",
         name: "Maggie",
-        category: "breakfast",
+        category: "Breakfast",
         price: "12Rs",
         description: "Maggie is so Tasty",  
     },
     {
         id: 2,
-        img: "Images/AlluPakoda.png",
+        img: "/assets/AlluPakoda.png",
         name: "AlluPakoda",
         category: "Evening",
         price: "20Rs",
@@ -19,7 +19,7 @@ const Menu = [
     },
     {
         id: 3,
-        img: "Images/Burger.png",
+        img: "/assets/Burger.png",
         name: "Burger",
         category: "Evening",
         price: "30Rs",
@@ -27,7 +27,7 @@ const Menu = [
     },
     {
         id: 4,
-        img: "Images/Chole.png",
+        img: "/assets/Chole.png",
         name: "Chole",
         category: "Lunch",
         price: "50Rs",
@@ -35,7 +35,7 @@ const Menu = [
     },
     {
         id: 5,
-        img: "Images/Pizza.png",
+        img: "/assets/Pizza.png",
         name: "Pizza",
         category: "Evening",
         price: "120Rs",
@@ -43,7 +43,7 @@ const Menu = [
     },
     {
         id: 6,
-        img: "Images/Manchurian.png",
+        img: "/assets/Manchurian.png",
         name: "Manchurian",
         category: "Evening",
         price: "60Rs",
@@ -51,7 +51,7 @@ const Menu = [
     },
     {
         id: 7,
-        img: "Images/Khichdi.png",
+        img: "/assets/Khichdi.png",
         name: "Khichdi",
         category: "Dinner",
         price: "50Rs",
@@ -59,7 +59,7 @@ const Menu = [
     },
     {
         id: 8,
-        img: "Images/Sweets.png",
+        img: "/assets/Sweets.png",
         name: "Sweets",
         category: "Dinner",
         price: "10Rs",
@@ -67,7 +67,7 @@ const Menu = [
     },
     {
         id: 9,
-        img: "Images/Rajma.png",
+        img: "/assets/Rajma.png",
         name: "Rajma Rice",
         category: "Dinner",
         price: "100Rs",
@@ -75,9 +75,9 @@ const Menu = [
     },
     {
         id: 10,
-        img: "Images/Samosa.png",
+        img: "/assets/Samosa.png",
         name: "Samosa",
-        category: "breakfast",
+        category: "Breakfast",
         price: "30Rs",
         description: "Samosa is so Tasty",  
     },
