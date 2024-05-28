@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    margin: 20px;
+    margin: 100px;
   }
   
   .card-container {
@@ -14,11 +14,15 @@
   }
   
   .card {
-    background-color: #fff;
+    background-color: #dea533b5;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   
   .card:hover {
@@ -37,7 +41,7 @@
   .card-author {
     display: block;
     margin-bottom: 10px;
-    color: #777;
+    color: #5f5f5f;
   }
   
   .card-title {
@@ -53,7 +57,8 @@
   }
   
   .card-read {
-    background-color: #f0c14b;
+    background-color: #000000;
+    color: #fff;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
@@ -62,18 +67,18 @@
   }
   
   .card-read:hover {
-    background-color: #e2a917;
+    background-color: #e07b00;
   }
   
   .card-media {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 150px;
   }
   
   .card-tag {
     display: block;
     text-align: center;
-    background-color: #ff9900;
+    background-color: #060606;
     color: white;
     padding: 10px;
     margin: 10px 0;
