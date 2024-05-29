@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Menucard.css'
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 const Menucard = ( { menuData} ) => {
 
@@ -39,7 +40,7 @@ const Menucard = ( { menuData} ) => {
                                     </div>
                                 </div>
                                 <img src={curElem.img} alt="images" className='card-media' />
-                                <span className="card-tag subtle">Order Now</span>
+                                <span className="card-tag subtle"><button><AddCircleIcon/></button></span>
                             </div>
 
                         </div>
