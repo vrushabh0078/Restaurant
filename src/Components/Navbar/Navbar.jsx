@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import Clock from '../Clock/Clock'
+
 
 const Navbar = ({ filterItem, menuList }) => {
   return (
@@ -14,6 +16,9 @@ const Navbar = ({ filterItem, menuList }) => {
                         </button>
                     )
                 })}
+            </div>
+            <div className="clock">
+                <Clock/>
             </div>
         </nav>
     </>
