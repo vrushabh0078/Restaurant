@@ -1,3 +1,19 @@
 .error {
-    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 10%;
+}
+
+.error h1 {
+    color: black;
+}
+
+
+.error img {
+    height: 150px;
+    width: 300px;
 }
