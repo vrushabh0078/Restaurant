@@ -37,8 +37,10 @@ const Restaurant = () => {
     
   return (
     <>
-        <Navbar filterItem = {filterItem} menuList={menuList} />
-        <Menucard menuData={menuData} />
+        <div className="rstnt">
+            <Navbar filterItem = {filterItem} menuList={menuList} />
+            <Menucard menuData={menuData} />
+        </div>
     </>
   )
 }

@@ -65,7 +65,10 @@ const Menucard = ( { menuData} ) => {
                                         </span>
                                     <button onClick={() => countRemove(curElem.id)}><RemoveCircleIcon/></button>
                                 </span>
-                                <span className="card-tag subtle">Order Now</span>
+                                <div className="card-cartOrder">
+                                    <span className="card-tag subtle">Order Now</span>
+                                    <span className="card-tag subtle">Add to cart</span>
+                                </div>
                             </div>
 
                         </div>
